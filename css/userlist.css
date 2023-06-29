@@ -1,0 +1,77 @@
+.user-list-item {
+    background-color: #dddddd;
+    margin: 10px auto;
+    max-width: 1024px;
+    display: flex;
+    /* justify-content: space-around; */
+    border-radius: 35px;  
+    color: #907c7a; 
+    font-weight: bold; 
+    flex-wrap: wrap;   
+    align-items: center;
+    padding: 0px 25px;   
+}
+.user-list-item p{
+    margin:0;
+}
+.user-list-item a{
+    border-radius: 3px;
+    background-color: #54595f;
+    color:white !important;
+    text-decoration: none;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    margin: 8px auto;
+    padding: 0px 10px;
+    min-height: 32px;
+    max-width: 35px;
+}
+.far {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    color: var(--e-global-color-primary );
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.user-id{
+    width: 10%;
+    text-align: center;
+    text-align: center;
+}
+
+.user-address{
+    width: 45%;
+}
+
+.user-posts-number{
+    align-items: baseline;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    width: 5%;
+}
+
+.user-date{
+    width: 25%;
+    text-align: center;
+}
+
+.user-posts-link{
+    width: 15%;
+}
+@media only screen and (max-width: 1024px) {
+    .user-list-item {
+        margin: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .user-list-item {
+        border-radius: 10px;
+    }
+}
